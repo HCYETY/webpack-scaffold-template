@@ -1,0 +1,61 @@
+{
+  "name": "foursheep-cli",
+  "version": "1.0.0",
+  "description": "手写 webpack 配置，规范项目结构，让项目初始化一步到位",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HCYETY/webpack-scaffold-template.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "babel-loader": "^8.2.5",
+    "babel-preset-react-app": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-webpack-plugin": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.2.3",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "react-refresh": "^0.13.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "stylus-loader": "^6.2.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "not dead"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HCYETY/webpack-scaffold-template/issues"
+  },
+  "homepage": "https://github.com/HCYETY/webpack-scaffold-template#readme"
+}
